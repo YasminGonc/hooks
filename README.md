@@ -35,3 +35,32 @@ Principais Hooks:
 </ul>
 
 ![](src/assets/useState.png)
+
+### useEffect
+
+<ul>
+    <li>Um dos hooks mais importantes;</li>
+    <li>Geralmente usados quando se consome dadoss de uma API;</li>
+    <li>Dá acesso aos métodos de ciclo de vida do componente;</li>
+    <li>"Fazer alguma coisa quando algo mudar";<li>
+    <li>Não pode ser uma função assíncrona;</li>
+    <li>Para usar assíncrono no useEffect tem que criar uma função assíncrona.</li>
+</ul>
+
+Construção:
+
+<ul>
+    <li>Recebe 2 parâmetros: primeiro é uma função e o segundo é o array de dependências;</li>
+    <li>O segundo parâmetro não é obrigatório, mas sempre será executado sempre que o componente for renderizado novamente;</li>
+    <li>O segundo parâmetro deve receber o elemento que eu quero "assistir". No exemplo, o resourseType é passado no segundo parâmetro, pois quero "fazer alguma coisa" quando esse componente mudar;</li>
+</ul>
+
+![](src/assets/useEffect.png)
+
+### useRef
+
+<ul>
+    <li>Retorna um objeto ref mutável, no qual a propriedade .current é inicializada;</li>
+    <li>Guardar quantas vezes o componente foi renderizado (Exemplo 1);</li>
+    <li>Dá para utilizar para referenciar elementos HTML (Exemplo 2)</li>
+</ul>

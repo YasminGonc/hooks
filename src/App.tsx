@@ -1,9 +1,13 @@
 import React from 'react';
-import UseState from './UseState';
+import UseEffect from './components/UseEffect';
+import UseRef from './components/UseRef';
+import UseState from './components/UseState';
 
 function App() {
   return (
-    <UseState />
+    //<UseState />
+    //<UseEffect />
+    <UseRef />
   );
 }
 
