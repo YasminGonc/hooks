@@ -52,3 +52,6 @@ Construção:
 - Guardar quantas vezes o componente foi renderizado (Exemplo 1);
 - Dá para utilizar para referenciar elementos HTML (Exemplo 2)
 
+### useMemo
+
+
